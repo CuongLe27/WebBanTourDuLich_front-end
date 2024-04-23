@@ -1,0 +1,8 @@
+.siderBook table,
+th,
+td {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: large;
+    background-color: rgba(243, 184, 75, 0.699) !important;
+}

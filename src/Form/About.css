@@ -1,0 +1,152 @@
+/* Reset CSS */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container styling */
+#tooplate_main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Left column styling */
+.col_w600 {
+    width: 600px;
+    float: left;
+    margin-right: 30px;
+}
+
+/* Right column styling */
+.col_w300 {
+    width: 300px;
+    float: right;
+}
+
+/* Common styling for paragraphs */
+p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Heading styles */
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Emphasis text styles */
+em {
+    color: #c8690a;
+}
+
+/* Image wrapper styling */
+.image_wrapper {
+    margin-bottom: 20px;
+}
+
+/* Testimonial blockquote styling */
+blockquote {
+    font-style: italic;
+    margin: 0 0 20px 20px;
+}
+
+/* Testimonial cite styling */
+cite {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Quick Contact Form styling */
+#contact_form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Form label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Form input styling */
+.input_field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Form textarea styling */
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Form button styling */
+.submit_btn,
+.reset_btn {
+    padding: 10px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.submit_btn:hover,
+.reset_btn:hover {
+    background-color: #c8690a;
+}
+
+/* Location and Address styling */
+#map {
+    margin-bottom: 20px;
+}
+
+.image_wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+/* Mailing Address styling */
+.mailing_address {
+    margin-bottom: 20px;
+}
+
+/* Footer paragraph styling */
+#tooplate_main p:last-child {
+    margin-bottom: 0;
+}
+
+/* Clear float */
+.cleaner {
+    clear: both;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+
+    .col_w600,
+    .col_w300 {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+}

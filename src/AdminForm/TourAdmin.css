@@ -1,0 +1,307 @@
+.admin-Tour .custom-anchor {
+    text-decoration: double !important;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 253, 253);
+}
+
+.admin-Tour .anchor-admin {
+    padding-left: 40px;
+    margin-top: 100px;
+    position: fixed;
+    width: 100%;
+    background-color: orange;
+}
+
+.admin-Tour .ant-anchor {
+    height: 40px;
+}
+
+.admin-Tour .ant-anchor a {
+    text-decoration: none !important;
+}
+
+.admin-Tour .addTour {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(104, 255, 104, 0.377), hsla(288, 42%, 67%, 0.74));
+    font-size: 15px;
+    padding: 170px 30px 100px 20px;
+}
+
+.admin-Tour .addTour .form-group {
+
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.admin-Tour .form-group .access {
+    width: 120px;
+}
+
+.admin-Tour table,
+th,
+td {
+    background-color: rgba(219, 243, 155, 0.534);
+}
+
+.admin-Tour table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0px 5px 20px rgb(73, 73, 73);
+}
+
+.admin-Tour th,
+td {
+    padding: 1px 2px 1px 0;
+}
+
+.admin-Tour td {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.admin-Tour .photo-Tour {
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.admin-Tour .desc-Tour {
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.admin-Tour .even-row {
+    background-color: #ffffff;
+}
+
+.admin-Tour .odd-row {
+    background-color: #ffedb185;
+}
+
+.admin-Tour .pagination {
+    padding: 30px !important;
+    width: 100%;
+}
+
+@media (max-width: 868px) {
+    .admin-Tour td {
+        display: block;
+    }
+
+    .admin-Tour th {
+        display: none;
+    }
+
+    .admin-Tour td::before {
+        content: attr(data-cell) ": ";
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .admin-Tour .photo-Tour {
+        width: 320px;
+    }
+
+    .admin-Tour .desc-Tour {
+        width: 320px;
+    }
+}
+
+.admin-Tour .icon-update-del {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-Tour .icon-update-del p {
+    padding-top: 16px;
+}
+
+/* ---------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------ */
+
+.updateUser {
+    top: 50px;
+    height: auto;
+    padding: 30px 30px 100px 20px;
+    width: 100%;
+    background-image: linear-gradient(rgb(227, 248, 132), hsla(229, 100%, 70%, 0.788));
+}
+
+/* Kéo đến div này */
+.admin-Tour #part-2 {
+    position: relative;
+    height: 1px;
+    bottom: 140px;
+}
+
+.updateUser .form-group {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.form-group .access {
+    width: 120px;
+}
+
+.updateUser table {
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0px 5px 20px rgb(73, 73, 73);
+    margin: auto;
+}
+
+.updateUser td {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ---------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------ */
+
+.Book-Style {
+    top: 50px;
+    height: auto;
+    padding: 30px 30px 100px 20px;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 32, 32, 0.719), rgb(255, 255, 100));
+}
+
+/* Kéo đến div này */
+.admin-Tour #part-3 {
+    position: relative;
+    height: 1px;
+    bottom: 140px;
+}
+
+.Book-Style .form-group {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.Book-Style table {
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0px 5px 20px rgb(73, 73, 73);
+    margin: auto;
+}
+
+.Book-Style td {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ---------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------ */
+
+.Review-Style {
+    top: 50px;
+    height: auto;
+    padding: 30px 30px 100px 20px;
+    width: 100%;
+    background-image: linear-gradient(hsla(304, 100%, 57%, 0.692), rgba(44, 255, 90, 0.63));
+}
+
+/* Kéo đến div này */
+.admin-Tour #part-4 {
+    position: relative;
+    height: 1px;
+    bottom: 140px;
+}
+
+.Review-Style .form-group {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.Review-Style table {
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0px 5px 20px rgb(73, 73, 73);
+    margin: auto;
+}
+
+.Review-Style td {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.control-label2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+@media (max-width: 992px) {
+    .control-label2 {
+        flex-direction: column !important;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------ */
+
+.Revenue-Style {
+    top: 50px;
+    height: auto;
+    padding: 30px 30px 100px 20px;
+    width: 100%;
+    background-image: linear-gradient(rgba(235, 243, 232, 0.692), rgba(134, 167, 137, 0.63));
+}
+
+/* Kéo đến div này */
+.admin-Tour #part-5 {
+    position: relative;
+    height: 1px;
+    bottom: 140px;
+}
+
+.Revenue-Style .form-group {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.Revenue-Style table {
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0px 5px 20px rgb(73, 73, 73);
+    margin: auto;
+}
+
+.Revenue-Style td {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.control-label2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 500;
+    width: 500px;
+}
+
+@media (max-width: 992px) {
+    .control-label2 {
+        flex-direction: column !important;
+    }
+}

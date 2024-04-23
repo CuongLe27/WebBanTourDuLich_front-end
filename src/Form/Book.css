@@ -1,0 +1,247 @@
+.siderBook {
+    padding-top: 110px;
+    background-color: white;
+    height: auto;
+    padding-left: 100px;
+    width: 100%;
+}
+
+@media (max-width:1200px) {
+    .siderBook {
+        padding-left: 0px;
+    }
+}
+
+.siderBook .img1 {
+    height: 480px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.siderBook .bill-Box-Sticky {
+    height: 100%;
+}
+
+.siderBook .bill-Box {
+    border: 1px solid orange;
+    padding: 30px;
+    border-radius: 10px;
+    position: sticky;
+    top: 110px;
+}
+
+.siderBook .bill-Box .money-Bill {
+    display: flex;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    justify-content: space-between;
+}
+
+.siderBook .bill-Box .money-Bill h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.siderBook .bill-Box .money-Bill h3 span {
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.siderBook .bill-Box .money-Bill .rate {
+    color: gray;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.siderBook .bill-Box .money-Bill2 {
+    padding-top: 15px;
+}
+
+.siderBook .bill-Box .money-Bill2 h2 {
+    font-size: 17px;
+}
+
+.siderBook .bill-Box .money-Bill2 .information-Bill {
+    border: 1px solid rgb(224, 224, 224);
+    padding: 10px;
+}
+
+.siderBook .bill-Box .money-Bill2 .information-Bill input {
+    border: none;
+    width: 100%;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.siderBook .bill-Box .money-Bill2 .information-Bill .day-guest {
+    display: flex;
+    justify-content: space-between;
+}
+
+.siderBook .bill-Box li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.siderBook .bill-Box .Card-button {
+    width: 100%;
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    transition: transform 0.5s ease;
+}
+
+.siderBook .bill-Box .Card-button:hover {
+    transform: scale(1.1);
+    color: white;
+    border: orange;
+}
+
+.siderBook .Tour-Info {
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.siderBook .Tour-Info .top1 {
+    display: flex;
+    gap: 60px;
+}
+
+.siderBook .Tour-Info .top1 .rate {
+    color: gray;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.siderBook .Tour-Info .top2 {
+    width: 100%;
+}
+
+.siderBook .Tour-Info .top2 .rate {
+    color: gray;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.siderBook .Tour-Info p {
+    color: gray;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.siderBook .Tour-Review {
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.siderBook .Tour-Review .rate-row {
+    display: flex;
+    gap: 25px;
+}
+
+.siderBook .Tour-Review .rate-row .rate {
+    color: orange;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.siderBook .Tour-Review .input-review {
+    border: 1px solid orange;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+.siderBook .Tour-Review .input-review input {
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+}
+
+.siderBook .Tour-Review .input-review button {
+    width: 15%;
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    border: none;
+}
+
+.siderBook .Tour-Review .item-review {
+    align-items: center;
+    column-gap: 15px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.siderBook .Tour-Review .item-review img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+}
+
+.siderBook .Tour-Review .item-review .font-review {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.siderBook .Tour-Review .item-review .font-review h5 {
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.siderBook .Tour-Review .item-review .font-review p {
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.siderBook .Tour-Review .item-review .font-review .rate {
+    color: black;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+}
+
+.siderBook .Tour-Review .item-review .font-review1 {
+    width: 100%;
+}
+
+.siderBook .Tour-Review .item-review .font-review1 h6 {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+.siderBook .we-Subcribe {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.siderBook .we-Subcribe h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.siderBook .we-Subcribe .button-subcribe {
+    display: flex;
+    flex-direction: row;
+}

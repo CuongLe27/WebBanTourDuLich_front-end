@@ -1,0 +1,38 @@
+.siderCash {
+    padding-top: 140px;
+    background-color: white;
+    width: 100%;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.Cash-Background {
+    width: 40%;
+    background-color: orange;
+    margin: auto;
+    padding: 20px;
+}
+
+@media (max-width: 792px) {
+    .Cash-Background {
+        width: 100%;
+    }
+}
+
+.siderCash h3 {
+    text-align: center;
+}
+
+.form-group {
+    width: 60%;
+    margin: auto;
+
+}
+
+.buttonaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 100%;
+}

@@ -1,0 +1,423 @@
+.siderStyle-Tour {
+    height: 470px;
+    background-image: url(../tourbanner.jpg);
+    background-color: #7dbcea;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+
+.siderStyle2-Tour {
+    height: 470px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.siderStyle-Tour .siderStyle2-Tour .Content-siderStyle-Tour {
+    padding-top: 200px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.siderStyle2-Tour .Content-siderStyle-Tour h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:992px) {
+    .siderStyle-Tour-top3 {
+        height: 160px !important;
+        position: relative;
+        top: 25px;
+    }
+
+    .sider-Tour .we-Explore .card-Explore {
+        width: 740px !important;
+        margin: auto;
+    }
+
+    .sider-Tour {
+        padding-left: 10px !important;
+    }
+
+    .siderStyle-Tour-top3 .maxpeople-icon {
+        top: 70px !important;
+    }
+
+    .siderStyle-Tour-top3 .maxpeople-text {
+        width: 250px;
+        position: relative;
+        top: 65px !important;
+        margin-left: 50px;
+    }
+
+    .siderStyle-Tour-top3 .location-icon {
+        top: 20px !important;
+    }
+
+    .siderStyle-Tour-top3 .location-text {
+        width: 250px;
+    }
+
+    .siderStyle-Tour-top3 .distance-icon {
+        top: 20px !important;
+    }
+
+    .siderStyle-Tour-top3 .distance-text {
+        width: 250px;
+    }
+
+    .custom-search-icon {
+        position: relative;
+        top: 50px !important;
+    }
+
+}
+
+@media (max-width:768px) {
+    .siderStyle-Tour-top3 {
+        width: 100%;
+        max-width: 400px;
+        height: 230px !important;
+        position: relative;
+        top: 25px;
+        margin: auto;
+    }
+
+    .sider-Tour .we-Explore .card-Explore {
+        width: 100% !important;
+    }
+
+    .sider-Tour {
+        padding-left: 10px !important;
+    }
+
+    .siderStyle-Tour-top3 .distance-icon {
+        top: 70px !important;
+    }
+
+    .siderStyle-Tour-top3 .distance-text {
+        margin-top: 50px !important;
+    }
+
+    .siderStyle-Tour-top3 .maxpeople-icon {
+        top: 110px !important;
+    }
+
+    .siderStyle-Tour-top3 .maxpeople-text {
+        margin-top: 40px !important;
+    }
+
+    .custom-search-icon {
+        position: relative;
+        margin-top: 70px !important;
+        margin-left: 80px;
+    }
+
+    .sider-Tour .we-Explore .card-Explore {
+        width: 110% !important;
+    }
+
+    .sider-Tour .we-Explore img {
+        height: 300px !important;
+    }
+
+    .sider-Tour {
+        padding-left: 0px !important;
+    }
+}
+
+@media (max-width:580px) {
+
+    .siderStyle-Tour-top3 {
+        width: 350px !important;
+        max-width: 400px;
+        height: 260px !important;
+        position: relative;
+        top: 25px;
+        right: 20px;
+        margin: auto;
+    }
+
+    .sider-Tour .we-Explore .card-Explore {
+        width: 110% !important;
+    }
+
+    .sider-Tour {
+        padding-left: 0px !important;
+    }
+
+    .siderStyle-Tour-top3 .distance-text {
+        width: 230px;
+    }
+
+    .siderStyle-Tour-top3 .maxpeople-icon {
+        bottom: 230px !important;
+    }
+
+    .siderStyle-Tour-top3 .maxpeople-text {
+        bottom: 170px !important;
+    }
+
+    .siderStyle-Tour-top3 .location-text {
+        width: 230px;
+    }
+
+    .custom-search-icon {
+        margin-top: 90px !important;
+        margin-left: 20px;
+    }
+
+}
+
+.sider-Tour {
+    background-color: white;
+}
+
+.siderStyle-Tour-top3 {
+    width: 700px;
+    height: 70px;
+    box-shadow: 0px 15px 40px rgb(223, 223, 223);
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.siderStyle-Tour-top3 .custom-search-icon {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px 5px 10px 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.siderStyle-Tour-top3 .gutter-row {
+    margin-bottom: 20px;
+}
+
+.siderStyle-Tour-top3 .location-icon {
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 11px;
+}
+
+.siderStyle-Tour-top3 .location-text {
+    position: absolute;
+    top: 10px;
+    margin-left: 50px;
+    border-right: 2px solid rgb(214, 212, 212);
+}
+
+.siderStyle-Tour-top3 .distance-icon {
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 11px;
+}
+
+.siderStyle-Tour-top3 .distance-text {
+    position: absolute;
+    top: 10px;
+    margin-left: 50px;
+    border-right: 2px solid rgb(214, 212, 212);
+}
+
+.siderStyle-Tour-top3 .maxpeople-icon {
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 11px;
+}
+
+.siderStyle-Tour-top3 .maxpeople-text {
+    position: absolute;
+    top: 10px;
+    margin-left: 50px;
+}
+
+.sider-Tour {
+    background-color: white;
+    height: auto;
+    padding-left: 100px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.sider-Tour .Card-text {
+    height: 120px;
+}
+
+.sider-Tour .we-Explore .card-Explore {
+    width: 95%;
+}
+
+.sider-Tour .we-Explore .styleLoai p {
+    width: 90px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    background-color: orange;
+}
+
+.sider-Tour .we-Explore .styleLoai h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #4f6363;
+    position: relative;
+    bottom: 20px;
+}
+
+.sider-Tour .we-Explore .feat {
+    position: absolute;
+    bottom: 152px;
+    right: -1px;
+    background-color: orange;
+    width: 80px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+.sider-Tour .we-Explore .local {
+    font-weight: 600;
+    position: absolute;
+    font-size: 17px;
+    bottom: 100px;
+    left: 10px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.sider-Tour .we-Explore .rate {
+    color: gray;
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.sider-Tour .we-Explore .country {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    bottom: 30px;
+    height: 50px;
+    left: 10px;
+}
+
+.sider-Tour .we-Explore .money {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    bottom: 1px;
+    left: 10px;
+    color: gray;
+}
+
+
+.sider-Tour .we-Explore .Card-button {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    width: 100px;
+}
+
+.sider-Tour .Card-button .Card-button2 {
+    background-color: orange;
+    color: black;
+    border-radius: 10px 5px 10px 5px;
+    height: 50px;
+    transition: transform 0.5s ease;
+}
+
+.sider-Tour .Card-button .Card-button2 a {
+    text-decoration: none;
+}
+
+.sider-Tour .Card-button .Card-button2:hover {
+    transform: scale(1.1);
+    color: purple;
+}
+
+.sider-Tour .Card-button .Card-button2 a:hover {
+    transform: scale(1.1);
+    color: purple;
+}
+
+/* custom pagination cho web */
+
+.pagination {
+    padding: 30px 0;
+    width: 100%;
+}
+
+.pagination ul {
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 10px 18px;
+    color: #222;
+    text-decoration: none;
+}
+
+
+.p1 a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid orange;
+    margin-right: 20px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.p1 a:hover {
+    background-color: orange;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.p1 a.is-active {
+    background-color: orange;
+    border-radius: 100%;
+    color: #fff;
+}
+
+
+.sider-Tour .we-Subcribe {
+    width: 100%;
+}
+
+.sider-Tour .we-Subcribe h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sider-Tour .we-Subcribe .button-subcribe {
+    display: flex;
+    flex-direction: row;
+}
